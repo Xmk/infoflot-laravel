@@ -1,6 +1,10 @@
 # infoflot-laravel
 
-basic docs:
+## ATTENTION!
+
+⚠️ This package is at an early stage of development!
+
+### basic docs:
 
 https://restapi.infoflot.com/docs
 
