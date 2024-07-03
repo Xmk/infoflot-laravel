@@ -29,7 +29,7 @@
                 "Cryptoweb\\Infoflot\\InfoflotServiceProvider"
             ],
             "aliases": {
-                "Infoflot": "Cryptoweb\\Infoflot\\Facades\\InfoflotFacade"
+                "Infoflot": "Cryptoweb\\Infoflot\\Facades\\Infoflot"
             }
         }
     },

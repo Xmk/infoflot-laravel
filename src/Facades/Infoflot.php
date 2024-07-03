@@ -4,7 +4,7 @@ namespace CryptoWeb\Infoflot\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class InfoflotFacade extends Facade
+class Infoflot extends Facade
 {
     /**
      * Get the registered name of the component.
