@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cryptoweb\\Infoflot\\InfoflotServiceProvider"
+                "CryptoWeb\\Infoflot\\InfoflotServiceProvider"
             ],
             "aliases": {
-                "Infoflot": "Cryptoweb\\Infoflot\\Facades\\Infoflot"
+                "Infoflot": "CryptoWeb\\Infoflot\\Facades\\Infoflot"
             }
         }
     },
