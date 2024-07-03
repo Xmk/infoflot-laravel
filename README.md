@@ -10,7 +10,7 @@ https://restapi.infoflot.com/docs
 
 ## Description
 
-This package is laravel wrap for the [cryptoweb/infoflot-api](https://packagist.org/packages/cryptoweb/infoflot-api)
+This package is wrap for the [cryptoweb/infoflot-api](https://packagist.org/packages/cryptoweb/infoflot-api) for the Laravel
 
 ## Installation
 
@@ -23,7 +23,7 @@ composer require cryptoweb/infoflot-api
 Publish the package config:
 
 ```bash
-php artisan vendor:publish tag=infoflot-config
+php artisan vendor:publish --tag=infoflot-config
 ```
 
 Then, put your api key in the `config/infoflot.php`
