@@ -1,0 +1,38 @@
+{
+    "name": "cryptoweb/infoflot-laravel",
+    "description": "Laravel Package for Infoflot PHP Client",
+    "keywords": [
+        "php",
+        "infoflot",
+        "laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CryptoWeb\\Infoflot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Xmk",
+            "email": "i@ars-team.ru"
+        }
+    ],
+    "require": {
+        "cryptoweb/infoflot-api": "^0.1",
+        "laravel/framework": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cryptoweb\\Infoflot\\InfoflotServiceProvider"
+            ],
+            "aliases": {
+                "Infoflot": "Cryptoweb\\Infoflot\\Facades\\InfoflotFacade"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
