@@ -6,6 +6,6 @@ return [
 
 	'api_key' => '',
 
-	'useragent' => "php-infoflot-client/php-" . PHP_VERSION
+	'useragent' => "laravel-infoflot-client/php-" . PHP_VERSION
 
 ];
