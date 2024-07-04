@@ -18,7 +18,7 @@ This package is wrap for the [cryptoweb/infoflot-api](https://packagist.org/pack
 ## Installation
 
 ```bash
-composer require cryptoweb/infoflot-api
+composer require cryptoweb/infoflot-laravel
 ```
 
 ## Usage
