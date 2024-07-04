@@ -1,5 +1,8 @@
 # infoflot-laravel
 
+[![Latest Version](https://img.shields.io/packagist/v/cryptoweb/infoflot-laravel)](https://packagist.org/packages/cryptoweb/infoflot-laravel)
+[![License](https://img.shields.io/packagist/l/cryptoweb/infoflot-laravel)](https://packagist.org/packages/cryptoweb/infoflot-laravel)
+
 ## ATTENTION!
 
 ⚠️ This package is at an early stage of development!
