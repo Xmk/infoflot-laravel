@@ -2,10 +2,10 @@
 
 return [
 
-	'base_uri' => 'https://restapi.infoflot.com',
+	'base_uri' => env('INFOFLOT_BASE_URI', 'https://restapi.infoflot.com'),
 
-	'api_key' => '',
+	'api_key' => env('INFOFLOT_API_KEY', ''),
 
-	'useragent' => "laravel-infoflot-client/php-" . PHP_VERSION
+	'useragent' => env('INFOFLOT_USERAGENT', 'laravel-infoflot-client/php-' . PHP_VERSION),
 
 ];
