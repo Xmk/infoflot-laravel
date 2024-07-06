@@ -4,7 +4,7 @@ namespace CryptoWeb\Infoflot;
 
 use CryptoWeb\InfoflotApi\Client as InfoflotClient;
 use CryptoWeb\InfoflotApi\ClientOptions as InfoflotClientOptions;
-use CryptoWeb\InfoflotApi\Infoflot as InfoflotFactory;
+use CryptoWeb\InfoflotApi\Factory as InfoflotFactory;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 use GuzzleHttp\Client as HttpClient;
