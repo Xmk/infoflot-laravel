@@ -12,7 +12,7 @@ use GuzzleHttp\Client as HttpClient;
 class InfoflotServiceProvider extends ServiceProvider implements DeferrableProvider
 {
 	/**
-	 * Bootstrap any application services.
+	 * Bootstrap services.
 	 */
 	public function boot(): void
 	{
@@ -28,7 +28,7 @@ class InfoflotServiceProvider extends ServiceProvider implements DeferrableProvi
 	}
 
 	/**
-	 * Get the services provided by the provider.
+	 * Register services.
 	 */
 	public function register(): void
 	{
@@ -37,8 +37,8 @@ class InfoflotServiceProvider extends ServiceProvider implements DeferrableProvi
 				new InfoflotClient(
 					new HttpClient(),
 					new InfoflotClientOptions(
-						baseUri: config('infoflot.base_uri'),
 						apiKey: config('infoflot.api_key'),
+						baseUri: config('infoflot.base_uri'),
 						userAgent: config('infoflot.useragent')
 					)
 				)
@@ -48,8 +48,6 @@ class InfoflotServiceProvider extends ServiceProvider implements DeferrableProvi
 
 	/**
 	 * Get the services provided by the provider.
-	 *
-	 * @return array
 	 */
 	public function provides(): array
 	{
