@@ -23,7 +23,12 @@ composer require cryptoweb/infoflot-laravel
 
 ## Usage
 
-Publish the package config:
+Use `.env` variable:
+```env
+INFOFLOT_API_KEY=insert-api-key-here
+```
+
+Or publish the package config:
 
 ```bash
 php artisan vendor:publish --tag=infoflot-config
