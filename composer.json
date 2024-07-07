@@ -9,6 +9,9 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
             "CryptoWeb\\Infoflot\\": "src/"
         }

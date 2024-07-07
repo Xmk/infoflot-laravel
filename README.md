@@ -44,10 +44,15 @@ return [
 ];
 ```
 
+### Simple usage
+```php
+$cruses = infoflot()->cruises()->get();
+```
+
 ### Basic usage
 ```php
 use CryptoWeb\Infoflot\Facades\Infoflot;
-// or alias
+// or Alias
 use Infoflot;
 
 $riverCruises = Infoflot::cruises()->type('river')->get();
