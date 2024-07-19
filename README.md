@@ -1,19 +1,20 @@
 # infoflot-laravel
 
-[![Latest Version](https://img.shields.io/packagist/v/cryptoweb/infoflot-laravel)](https://packagist.org/packages/cryptoweb/infoflot-laravel)
-[![License](https://img.shields.io/packagist/l/cryptoweb/infoflot-laravel)](https://packagist.org/packages/cryptoweb/infoflot-laravel)
+[![Latest Version](https://img.shields.io/packagist/v/cryptoweb/infoflot-laravel?style=for-the-badge)](https://packagist.org/packages/cryptoweb/infoflot-laravel)
+[![License](https://img.shields.io/packagist/l/cryptoweb/infoflot-laravel?style=for-the-badge)](https://packagist.org/packages/cryptoweb/infoflot-laravel)
 
-## ATTENTION!
-
-⚠️ This package is at an early stage of development!
-
-### basic docs:
-
-https://restapi.infoflot.com/docs
+> [!WARNING]
+>
+> This package is at an early stage of development!
 
 ## Description
 
+Laravel Package for fast and easy access to Infoflot API.
 This package is wrap for the [cryptoweb/infoflot-api](https://packagist.org/packages/cryptoweb/infoflot-api) for the Laravel
+
+> [!NOTE]
+>
+> Basic documentation: https://restapi.infoflot.com/docs
 
 ## Installation
 
@@ -44,12 +45,12 @@ return [
 ];
 ```
 
-### Simple usage
+### Usage with helper method
 ```php
-$cruses = infoflot()->cruises()->get();
+$riverCruises = infoflot()->cruises()->type('river')->get();
 ```
 
-### Basic usage
+### Usage with facade
 ```php
 use CryptoWeb\Infoflot\Facades\Infoflot;
 // or Alias
